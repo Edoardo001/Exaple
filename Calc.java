@@ -16,6 +16,7 @@ public class Calc {
 	private static Scanner sc14;
 
 	public static void main(String[] args) {		
+System.out.println("Scrivere info per avere informazioni sul programma");
 		System.out.println("Selezionare tra: somma, sottrazione, moltiplicazione, divisione");
 		
         // "selettore" parte vuoto
@@ -127,7 +128,9 @@ public class Calc {
 			System.out.println("La sottrazione è " + sottrazione);
 			
 // input non presente tra quelli possibili			
-		}else{
+		}else if (selettore.equals("info")){
+System.out.print("Calcilatrice: è possibile eseguire addizione, sottrazione, moltiplicazione e divisione. Usare solo numeri interi);
+}else{
 			System.out.println("Leggi le istruzioni");
 		}
 	}	
