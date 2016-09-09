@@ -127,11 +127,13 @@ System.out.println("Scrivere info per avere informazioni sul programma");
 			// risultato
 			System.out.println("La sottrazione è " + sottrazione);
 			
-// input non presente tra quelli possibili			
+			// info
 		}else if (selettore.equals("info")){
-System.out.print("Calcilatrice: è possibile eseguire addizione, sottrazione, moltiplicazione e divisione. Usare solo numeri interi);
+          System.out.print("Calcilatrice: è possibile eseguire addizione, sottrazione, moltiplicazione e divisione. Usare solo numeri interi);
+
+// input non presente tra quelli possibili
 }else{
-			System.out.println("Leggi le istruzioni");
+			     System.out.println("Leggi le istruzioni");
 		}
 	}	
 }
