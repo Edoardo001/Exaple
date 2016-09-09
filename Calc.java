@@ -26,6 +26,8 @@ System.out.println("Scrivere info per avere informazioni sul programma");
 		// se presente qualcosa parte il programma
 		selettore = sc0.nextLine();
 		
+
+		
 		
 // somma		
 		if (selettore.equals("somma")) {
@@ -46,6 +48,13 @@ System.out.println("Scrivere info per avere informazioni sul programma");
 //			if (sc.equals(int)){
 //			    System.out.println("Inserire un numero intero");
 //		    }
+			// Controlla se i numeri inseriti, sono effettivamente degli interi
+			if( n1 != (int)n1 ||  n2 != (int)n2 )
+			{
+   			// Il numero non è un intero
+			   System.out.println("Uno o più numeri inseriti non è un numero intero!");
+			return;	
+			}
 			
 			// esegue il calcolo
 			float somma = n1+n2;
@@ -71,7 +80,13 @@ System.out.println("Scrivere info per avere informazioni sul programma");
 //			if (sc.equals(int)){
 //		        System.out.println("Inserire un numero intero");
 //	        }
-			
+				// Controlla se i numeri inseriti, sono effettivamente degli interi
+			if( n1 != (int)n1 ||  n2 != (int)n2 )
+			{
+   			// Il numero non è un intero
+			   System.out.println("Uno o più numeri inseriti non è un numero intero!");
+			return;	
+			}	
 			// esegue il calcolo
 			float moltiplicazione = n1*n2;
 			// risultato
@@ -96,7 +111,13 @@ System.out.println("Scrivere info per avere informazioni sul programma");
 //			if (sc.equals(int)){
 //		        System.out.println("Inserire un numero intero");
 //	        }
-			
+				// Controlla se i numeri inseriti, sono effettivamente degli interi
+			if( n1 != (int)n1 ||  n2 != (int)n2 )
+			{
+   			// Il numero non è un intero
+			   System.out.println("Uno o più numeri inseriti non è un numero intero!");
+			return;	
+			}
 			// esegue il calcolo
 			float divisione = n1/n2;
 			// risultato
@@ -121,7 +142,13 @@ System.out.println("Scrivere info per avere informazioni sul programma");
 //			if (sc.equals(int)){
 //		        System.out.println("Inserire un numero intero");
 //	        }
-			
+				// Controlla se i numeri inseriti, sono effettivamente degli interi
+			if( n1 != (int)n1 ||  n2 != (int)n2 )
+			{
+   			// Il numero non è un intero
+			   System.out.println("Uno o più numeri inseriti non è un numero intero!");
+			return;	
+			}
 			// esegue il calcolo
 			float sottrazione = n1-n2;
 			// risultato
