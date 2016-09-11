@@ -38,14 +38,6 @@ public class Calc {
 			sc1 = new Scanner(System.in);
 			float n2 = sc1.nextInt();
 
-//			// Controlla se i numeri inseriti, sono effettivamente degli interi
-//			if( n1 != (int)n1 ||  n2 != (int)n2 )
-//			{
-// 			// Il numero non è un intero
-//			   System.out.println("Uno o più numeri inseriti non è un numero intero!");
-//			return;	
-//			}
-			
 			// esegue il calcolo
 			float somma = n1+n2;
 			// risultato
@@ -63,13 +55,6 @@ public class Calc {
 			sc12 = new Scanner(System.in);
 			float n2 = sc12.nextInt();
 
-//				// Controlla se i numeri inseriti, sono effettivamente degli interi
-//			if( n1 != (int)n1 ||  n2 != (int)n2 )
-//			{
-// 			// Il numero non è un intero
-//			   System.out.println("Uno o più numeri inseriti non è un numero intero!");
-//			return;	
-//			}	
 			// esegue il calcolo
 			float moltiplicazione = n1*n2;
 			// risultato
@@ -87,13 +72,6 @@ public class Calc {
 			sc13 = new Scanner(System.in);
 			float n2 = sc13.nextInt();
 			
-//			// Controlla se i numeri inseriti, sono effettivamente degli interi
-//			if( n1 != (int)n1 ||  n2 != (int)n2 )
-//			{
-//   			// Il numero non è un intero
-//      		   System.out.println("Uno o più numeri inseriti non è un numero intero!");
-//			return;	
-//			}
 			// esegue il calcolo
 			float divisione = n1/n2;
 			// risultato
@@ -111,13 +89,6 @@ public class Calc {
 			sc14 = new Scanner(System.in);
 			float n2 = sc14.nextInt();
 
-//			// Controlla se i numeri inseriti, sono effettivamente degli interi
-//			if( n1 != (int)n1 ||  n2 != (int)n2 )
-//			{
-//   			// Il numero non è un intero
-//			   System.out.println("Uno o più numeri inseriti non è un numero intero!");
-//			return;	
-//			}
 			// esegue il calcolo
 			float sottrazione = n1-n2;
 			// risultato
