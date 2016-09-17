@@ -4,7 +4,7 @@
 import java.util.Scanner;
 
 // Inizio classe
-public class Prova {
+public class Calc {
 	private static Scanner sc0;
 	private static Scanner sc;
 	private static Scanner sc1;
