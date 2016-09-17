@@ -4,7 +4,7 @@
 import java.util.Scanner;
 
 // Inizio classe
-public class Calc {
+public class Prova {
 	private static Scanner sc0;
 	private static Scanner sc;
 	private static Scanner sc1;
@@ -31,15 +31,15 @@ public class Calc {
 			// 1 numero
 			System.out.println("Inserisci numero 1 #somma");
 			sc = new Scanner(System.in);			
-			float n1 = sc.nextInt();
+			Double n1 = sc.nextDouble();
 			
 			// 2 numero
 			System.out.println("Inserisci numero 2 #somma");
 			sc1 = new Scanner(System.in);
-			float n2 = sc1.nextInt();
+			Double n2 = sc1.nextDouble();
 
 			// esegue il calcolo
-			float somma = n1+n2;
+			Double somma = n1+n2;
 			// risultato
 			System.out.println("La somma è " + somma);
 			
@@ -48,15 +48,15 @@ public class Calc {
 			// 1 numero
 			System.out.println("Inserisci numero 1 #moltiplicazione");
 			sc2 = new Scanner(System.in);
-			float n1 = sc2.nextInt();
+			Double n1 = sc2.nextDouble();
 			
 			// 2 numero
 			System.out.println("Inserisci numero 2 #moltiplicazione");
 			sc12 = new Scanner(System.in);
-			float n2 = sc12.nextInt();
+			Double n2 = sc12.nextDouble();
 
 			// esegue il calcolo
-			float moltiplicazione = n1*n2;
+			Double moltiplicazione = n1*n2;
 			// risultato
 			System.out.println("La moltiplicazione è " + moltiplicazione);
 			
@@ -65,15 +65,15 @@ public class Calc {
 			// 1 numero
 			System.out.println("Inserisci numero 1 #divisione");
 			sc3 = new Scanner(System.in);
-			float n1 = sc3.nextInt();
+			Double n1 = sc3.nextDouble();
 			
 			// 2 numero
 			System.out.println("Inserisci numero 2 #divisione");
 			sc13 = new Scanner(System.in);
-			float n2 = sc13.nextInt();
+			Double n2 = sc13.nextDouble();
 			
 			// esegue il calcolo
-			float divisione = n1/n2;
+			Double divisione = n1/n2;
 			// risultato
 			System.out.println("La divisione è " + divisione);
 			
@@ -82,15 +82,15 @@ public class Calc {
 			// 1 numero
 			System.out.println("Inserisci numero 1 #sottrazione");
 			sc4 = new Scanner(System.in);
-			float n1 = sc4.nextInt();
+			Double n1 = sc4.nextDouble();
 			
 			// 2 numero
 			System.out.println("Inserisci numero 2 #sottrazione");
 			sc14 = new Scanner(System.in);
-			float n2 = sc14.nextInt();
+			Double n2 = sc14.nextDouble();
 
 			// esegue il calcolo
-			float sottrazione = n1-n2;
+			Double sottrazione = n1-n2;
 			// risultato
 			System.out.println("La sottrazione è " + sottrazione);
 			
