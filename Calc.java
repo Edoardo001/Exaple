@@ -26,8 +26,27 @@ public class Calc {
 	// se presente qualcosa parte il programma
 		selettore = sc0.nextLine();
 		
-// somma		
-		if (selettore.equals("somma")) {
+		if (selettore.equals("impostazioni")) {
+			System.out.println("Inserire utente");
+			String user = null;
+			Scanner sc2 = new Scanner(System.in);
+			user = sc2.nextLine();
+
+			System.out.println("Inserire password");
+			String password = null;
+			Scanner sc3  = new Scanner(System.in);
+			password = sc3.nextLine();
+
+			if (user.equals("admin") && password.equals("admin")) {
+				System.out.println("Grazie per esserti loggato");
+
+				/* Aggiungere impostazioni nelle impostazioni*/
+
+				return;
+			}else System.out.println("Utente o password errati");
+			return;
+// somma
+		}else if (selettore.equals("somma")) {
 			// 1 numero
 			System.out.println("Inserisci numero 1 #somma");
 			sc = new Scanner(System.in);			
@@ -96,11 +115,12 @@ public class Calc {
 			
 			// info
 		}else if (selettore.equals("info")){
-                        System.out.print("Calcilatrice: è possibile eseguire addizione, sottrazione, moltiplicazione e divisione. Usare solo numeri interi");
+                        System.out.print("Calcolatrice: è possibile eseguire addizione, sottrazione, moltiplicazione e divisione");
 
 // input non presente tra quelli possibili
                 }else{
 			System.out.println("Leggi le istruzioni");
+			return;
 		}
 	}	
 }
